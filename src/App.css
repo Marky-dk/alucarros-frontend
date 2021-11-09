@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;900&display=swap'); 
+
+.pagina-fundo {
+  background-color: rgb(14, 82, 185);
+}
+
+.letra {
+  color: azure;
+}
+
+.pagina-principal {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(to right, rgba(153, 132, 170, 0.8), rgba(153, 132, 170, 0.6), rgba(153, 132, 170, 0.7)), linear-gradient(to bottom, rgba(27, 130, 249, 0.8), rgba(209, 27, 39, 0), rgba(27, 130, 249, 0.8)), url("https://www.rallylocadora.com.br/sites/default/files/blog/aluguel-de-carro-executivo-preco-2_0.jpg");
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagina-loja {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(to right, rgba(164, 216, 159, 0.8), rgba(164, 216, 159, 0.6), rgba(164, 216, 159, 0.7)), linear-gradient(to bottom, rgb(209, 206, 27), rgba(209, 27, 39, 0), rgba(209, 206, 27)), url("https://mobilidade.estadao.com.br/wp-content/uploads/2020/12/Aluguel-de-carrosFrota-Localiza4.jpg");
+  justify-content: center;
+  align-items: center;
+  display: flex;;
+}
+
+.pagina-contato {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(to right, rgba(153, 132, 170, 0.8), rgba(153, 132, 170, 0.6), rgba(153, 132, 170, 0.7)), linear-gradient(to bottom, rgb(82, 163, 5), rgba(209, 27, 39, 0), rgba(82, 163, 5, 0.8)), url("https://blog.escallo.com.br/wp-content/uploads/2020/10/Guia-de-suporte-ao-cliente-dicas-para-uma-equipe-de-sucesso.png");
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+}
+
+.rodape {
+	position: absolute;
+	bottom: 0;
+	}
+
+.slogan {
+  font-size: 84px;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(21, 74, 248);
+}
+
+.botao {
+  position: absolute;
+  right: 55%;
+  text-decoration: none;
+  padding: 10px;
+  background-color: rgb(7, 68, 233);
+  color: rgb(253, 251, 251);
+  font-size: 24px;
+  border-radius: 20px;
+  font-family: "Lato";
+  top: 0%;
+}
+
+.texto {
+  position: relative;
+  left: 500px;
+  font-family: "Lato";
+  font-size: 24px;
+  line-height: 40px;
+  text-align: justify;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #fafafa;
+}
+ 
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border-left: 3px solid #b3404a;
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 30px;
+  margin: 20px;
+  width: 400px;
+  transition: all 0.3s ease-out;
+}
