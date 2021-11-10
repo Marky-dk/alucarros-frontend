@@ -21,9 +21,9 @@ function Loja() {
                     lojas.map(loja => {
                         return (
                             <div className="card" key={loja.id}>
-                                <h2> {loja.nome} </h2>
-                                <p> {loja.tipo} </p>
-                                <span> {loja.local} </span>
+                                <h2> {loja.endereco} </h2>
+                                <p> {loja.cep} </p>
+                                <span> {loja.bairro} </span>
                             </div>
                         )
                     })
